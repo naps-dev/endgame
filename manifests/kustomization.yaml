@@ -1,0 +1,7 @@
+resources:
+- ./MCM-Server/vm.yaml
+- ./MCM-Server/bapp.yaml
+- ./SMP-Platform/vm.yaml
+- ./SMP-Platform/bapp.yaml
+- ./SMP-Platform-txt/vm.yaml
+- ./SMP-Platform-txt/bapp.yaml

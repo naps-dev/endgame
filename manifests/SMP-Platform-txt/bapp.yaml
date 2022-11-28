@@ -1,0 +1,9 @@
+apiVersion: app.baffles.dev/v1
+kind: BafflesApplication
+metadata:
+  name: endgame-smp-txt
+  namespace: default
+spec:
+  displayName: "Endgame SMP (txt)"
+  url: "ws:///23.0.0.8:30763/k8s/apis/subresources.kubevirt.io/v1alpha3/namespaces/default/virtualmachineinstances/endgame-smp-txt/vnc"
+  category: "vm"

@@ -1,0 +1,9 @@
+apiVersion: app.baffles.dev/v1
+kind: BafflesApplication
+metadata:
+  name: endgame-mcm
+  namespace: default
+spec:
+  displayName: "Endgame MCM"
+  url: "ws:///23.0.0.8:30763/k8s/apis/subresources.kubevirt.io/v1alpha3/namespaces/default/virtualmachineinstances/endgame-mcm/vnc"
+  category: "vm"
